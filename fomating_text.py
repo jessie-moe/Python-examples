@@ -1,0 +1,10 @@
+text = input('What did the cat say?')
+text_length = len(text)
+
+print('          {}'.format("*" + "-" * text_length + "*"))
+print('          |{}|'.format(text))
+print('          {}'.format("*" + "-" * text_length + "*"))
+print('         /')
+print(' /\-/\  /')
+print('( o.o )')
+print(' > ^ <')
