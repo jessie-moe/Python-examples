@@ -1,5 +1,6 @@
 PASS = "random"
 challenge = ""
+
 while challenge != PASS:
     challenge = input("Please enter your password: ")
     if challenge != PASS:
@@ -13,6 +14,7 @@ while challenge != PASS:
 
 PASS = "random"
 valid  = False
+
 while not valid:
     challenge = input("Please enter your password: ")
     if challenge == PASS:
